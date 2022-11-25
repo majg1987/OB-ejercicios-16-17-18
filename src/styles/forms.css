@@ -1,0 +1,48 @@
+/* Reutilizo las propiedades de Css
+para formulario de Login, Register */
+
+.container-forms {
+    max-width: 300px;
+    margin: 250px auto;
+    border: solid 2px black;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo {
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.error-message {
+    font-size: smaller;
+}
+
+.btn-forms {
+    width: 150px;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-forms:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    cursor: pointer;
+}
